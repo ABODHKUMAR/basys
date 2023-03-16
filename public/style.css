@@ -1,0 +1,133 @@
+/* style.css */
+
+/* Sidenav styles */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333333;
+  overflow-x: hidden;
+}
+
+.big-div {
+  background-color: #333333;
+  overflow-x: hidden;
+  height: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left-div img {
+  float: left;
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+.right-div h1 {
+  font-size: 18px;
+  padding-top: 12px;
+  color: white;
+}
+
+.sidenav_content {
+  margin-top: 30%;
+}
+
+.sidenav a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #f5f5f5;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #555555;
+}
+
+/* Main content styles */
+.main-content {
+  height: 100%;
+  width: 80%;
+  border: none;
+  float: right;
+  padding: 20px;
+  background-color: #f5f5f5;
+  animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.main-content h6 {
+  color: #555555;
+  font-size: 0.8em;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  margin-top: 0.2em;
+}
+
+.main-content h3 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+.main-content h4 {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+.pending_box {
+  margin-top: 1em;
+}
+
+.Pending h4 {
+  font-size: 1.2em;
+}
+
+.Request-ID {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.Request-ID .data-item {
+  font-weight: bold;
+}
+
+.Services .data-item {
+  font-size: 1.1em;
+}
+
+.Approve button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Approve button:hover {
+  background-color: #006600;
+}
+/* style.css */
+/* ------------------------------------------------------------------------------------- */
+
